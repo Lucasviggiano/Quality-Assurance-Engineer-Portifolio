@@ -1,6 +1,6 @@
 # Quality Engineer Portifolio (QE)
 
-Este repositorio contem o portfolio QA do Lucas Viggiano em formato de landing page estatica.
+A mensuração é um elemento essencial para a gestão da qualidade, pois aquilo que não é medido dificilmente pode ser acompanhado, controlado e melhorado (DEMING, 1990).
 
 ## Objetivo
 
