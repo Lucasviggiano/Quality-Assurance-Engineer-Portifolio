@@ -1,4 +1,4 @@
-# Portfolio de Engenharia de Qualidade de Software
+# Quality Engineer Portifolio (QE)
 
 Este repositorio contem o portfolio QA do Lucas Viggiano em formato de landing page estatica.
 
