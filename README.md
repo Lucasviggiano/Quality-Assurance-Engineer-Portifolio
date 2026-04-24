@@ -1,4 +1,4 @@
-﻿# Lucas Viggiano | Portfolio de Engenharia de Qualidade
+# Portfolio de Engenharia de Qualidade
 
 Este repositorio contem o portfolio QA do Lucas Viggiano em formato de landing page estatica.
 
