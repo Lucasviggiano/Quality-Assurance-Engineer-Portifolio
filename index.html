@@ -1,0 +1,418 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucas Viggiano | Portfolio QA</title>
+  <meta
+    name="description"
+    content="Portfolio de Lucas Viggiano com projetos de automacao web, API, mobile, performance e CI/CD em Quality Engineering."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a href="#inicio" class="brand" aria-label="Portfolio de Lucas Viggiano">
+        <span class="brand-mark">L</span>
+        <span>Lucas Viggiano QA</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        &#9776;
+      </button>
+
+      <nav class="nav-links" id="menu-principal">
+        <a href="#beneficios">Diferenciais</a>
+        <a href="#metodo">Metodo</a>
+        <a href="#valor">Projetos</a>
+        <a href="#contato">Contato</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a
+        class="btn btn-primary nav-cta"
+        href="https://github.com/Lucasviggiano"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub do Lucas
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero reveal" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge">Lucas Viggiano | Quality Engineering</span>
+
+          <h1>
+            Portfolio de QA focado em
+            <span class="highlight">automacao, estrategia de testes e entrega continua</span>
+          </h1>
+
+          <p>
+            Sou Lucas Viggiano e este portfolio consolida minha trajetoria em Engenharia de Qualidade.
+            Aqui voce encontra projetos reais de automacao web, API, mobile, performance e CI/CD com
+            foco em cobertura de risco e confiabilidade de release.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#valor">Ver projetos</a>
+            <a class="btn btn-secondary" href="#contato">Entrar em contato</a>
+          </div>
+
+          <div class="hero-stats">
+            <article class="stat">
+              <strong>5 frentes QA</strong>
+              <span>web, api, mobile, performance e ci/cd</span>
+            </article>
+            <article class="stat">
+              <strong>15+ repositorios</strong>
+              <span>evolucao continua no GitHub</span>
+            </article>
+            <article class="stat">
+              <strong>TCC EBAC</strong>
+              <span>base consolidada de estrategia e execucao</span>
+            </article>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal reveal-delay-1">
+          <div class="mini-card">
+            <strong>Como eu atuo em qualidade</strong>
+            <span>
+              Traduzo risco de negocio em cobertura tecnica, priorizando os fluxos que mais impactam a experiencia do usuario.
+            </span>
+          </div>
+
+          <div class="mini-card">
+            <strong>Como eu implemento</strong>
+            <span>
+              Estruturo suites reutilizaveis, integradas ao pipeline, para gerar feedback rapido e reduzir regressao em producao.
+            </span>
+          </div>
+
+          <div class="mini-card">
+            <strong>Resultado entregue</strong>
+            <span>
+              Mais previsibilidade na entrega, melhor confianca para deploy e decisoes orientadas por evidencias de teste.
+            </span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section reveal" id="beneficios">
+      <div class="container center-block">
+        <h2 class="section-title">Diferenciais do trabalho do Lucas</h2>
+        <p class="section-subtitle">
+          Cada repositorio foi organizado para demonstrar contexto, estrategia, implementacao e resultados de qualidade.
+        </p>
+
+        <div class="grid-3 top-gap text-left">
+          <article class="feature-card">
+            <div class="feature-icon">01</div>
+            <h3>Qualidade orientada a risco</h3>
+            <p>
+              Priorizacao por criticidade funcional, impacto no negocio e probabilidade de falha para otimizar esforco de teste.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">02</div>
+            <h3>Automacao com padrao</h3>
+            <p>
+              Estruturas de teste com foco em manutencao, reuso e legibilidade para acompanhar evolucao do produto.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">03</div>
+            <h3>Integração com CI/CD</h3>
+            <p>
+              Fluxos automatizados para validar rapidamente alteracoes e apoiar uma cultura de qualidade continua.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="metodo">
+      <div class="container split">
+        <div class="visual-panel">
+          <span class="visual-tag">Metodo aplicado</span>
+
+          <div class="visual-box">
+            <strong class="visual-title">Fluxo de QA ponta a ponta</strong>
+            <p>
+              Planejamento de cobertura, implementacao de testes, execucao recorrente e melhoria continua orientada por resultados.
+            </p>
+            <ul>
+              <li>Analise de risco e mapeamento de cenarios criticos</li>
+              <li>Automacao de UI, API e Mobile com foco em manutencao</li>
+              <li>Testes de performance para validar estabilidade sob carga</li>
+              <li>Execucao em pipeline CI/CD com evidencia de qualidade</li>
+            </ul>
+          </div>
+
+          <div class="visual-box">
+            <strong class="visual-box-label">Stack principal</strong>
+            <span>Cypress, Jest, Supertest, Appium, WebdriverIO, k6 e GitHub Actions</span>
+          </div>
+        </div>
+
+        <div>
+          <span class="badge">Metodo</span>
+          <h2 class="section-title">Qualidade como parte da engenharia de entrega</h2>
+          <p class="section-subtitle section-subtitle-left">
+            Minha abordagem e integrar qualidade ao fluxo de desenvolvimento desde o inicio,
+            reduzindo risco de release e aumentando confianca do time em cada deploy.
+          </p>
+
+          <div class="grid-2">
+            <article class="audience-card">
+              <div class="audience-icon">A</div>
+              <h3>Estrategia de cobertura</h3>
+              <p>
+                Definicao objetiva do que testar primeiro para maximizar valor tecnico e de negocio.
+              </p>
+            </article>
+
+            <article class="audience-card">
+              <div class="audience-icon">B</div>
+              <h3>Execucao automatizada</h3>
+              <p>
+                Suites executadas continuamente para detectar regressao cedo e com evidencia clara.
+              </p>
+            </article>
+
+            <article class="audience-card">
+              <div class="audience-icon">C</div>
+              <h3>Validacao por dados</h3>
+              <p>
+                Resultados de teste e metricas de performance para apoiar decisao tecnica.
+              </p>
+            </article>
+
+            <article class="audience-card">
+              <div class="audience-icon">D</div>
+              <h3>Evolucao continua</h3>
+              <p>
+                Refinamento constante de cenarios, pipeline e organizacao dos repositorios.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="valor">
+      <div class="container pricing-wrapper">
+        <article class="pricing-card">
+          <span class="badge">Projetos em destaque</span>
+          <h2 class="section-title price-title">Repositorios QA do Lucas Viggiano</h2>
+          <p>
+            Principais projetos publicados para representar as camadas de qualidade trabalhadas no portfolio.
+          </p>
+
+          <div class="price">7+ <small>repositorios-chave</small></div>
+
+          <ul class="pricing-list">
+            <li><a href="https://github.com/Lucasviggiano/ebac-tcc-qe" target="_blank" rel="noopener noreferrer">ebac-tcc-qe</a> - projeto consolidado de qualidade do TCC</li>
+            <li><a href="https://github.com/Lucasviggiano/automacao-web-cypress" target="_blank" rel="noopener noreferrer">automacao-web-cypress</a> - testes E2E com Cypress</li>
+            <li><a href="https://github.com/Lucasviggiano/automacao-API" target="_blank" rel="noopener noreferrer">automacao-API</a> - testes de API com Jest e Supertest</li>
+            <li><a href="https://github.com/Lucasviggiano/automacao-mobile" target="_blank" rel="noopener noreferrer">automacao-mobile</a> - testes mobile com Appium e WDIO</li>
+            <li><a href="https://github.com/Lucasviggiano/performance-k6" target="_blank" rel="noopener noreferrer">performance-k6</a> - testes de carga com k6</li>
+            <li><a href="https://github.com/Lucasviggiano/ci-cd-github-actions" target="_blank" rel="noopener noreferrer">ci-cd-github-actions</a> - pipelines de qualidade</li>
+            <li><a href="https://github.com/EBAC-QE/qa-portfolio" target="_blank" rel="noopener noreferrer">qa-portfolio</a> - portfolio central desta pagina</li>
+          </ul>
+
+          <a
+            class="btn btn-primary"
+            href="https://github.com/Lucasviggiano"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver perfil completo no GitHub
+          </a>
+          <p class="muted-note">Links atualizados com base nos repositorios publicos do perfil em 24/04/2026.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="contato">
+      <div class="container contact-layout">
+        <div class="contact-copy">
+          <span class="badge">Contato</span>
+          <h2 class="section-title">Vamos conversar sobre Engenharia de Qualidade</h2>
+          <p class="section-subtitle section-subtitle-left">
+            Use o formulario para gerar uma mensagem de contato rapida no WhatsApp.
+            Se preferir, acesse diretamente o perfil do GitHub do Lucas.
+          </p>
+
+          <div class="contact-points">
+            <div class="contact-point">
+              <strong>Perfil GitHub:</strong>
+              <span><a href="https://github.com/Lucasviggiano" target="_blank" rel="noopener noreferrer">github.com/Lucasviggiano</a></span>
+            </div>
+            <div class="contact-point">
+              <strong>Especialidades:</strong>
+              <span>Automacao Web, API, Mobile, Performance e CI/CD.</span>
+            </div>
+            <div class="contact-point">
+              <strong>Base de projetos:</strong>
+              <span>TCC EBAC e repositorios dedicados por camada de QA.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-card">
+          <form id="leadForm" novalidate>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" placeholder="Ex.: Maria Souza" required />
+                <small class="error-message"></small>
+              </div>
+
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="voce@empresa.com" required />
+                <small class="error-message"></small>
+              </div>
+
+              <div class="form-field">
+                <label for="telefone">Telefone</label>
+                <input id="telefone" name="telefone" type="tel" placeholder="(31) 99999-9999" required />
+                <small class="error-message"></small>
+              </div>
+
+              <div class="form-field">
+                <label for="tipoProjeto">Tipo de projeto</label>
+                <select id="tipoProjeto" name="tipoProjeto" required>
+                  <option value="">Selecione</option>
+                  <option value="Automacao Web (Cypress)">Automacao Web (Cypress)</option>
+                  <option value="Automacao de API (Jest + Supertest)">Automacao de API (Jest + Supertest)</option>
+                  <option value="Automacao Mobile (Appium + WDIO)">Automacao Mobile (Appium + WDIO)</option>
+                  <option value="Performance (k6)">Performance (k6)</option>
+                  <option value="CI/CD para qualidade">CI/CD para qualidade</option>
+                </select>
+                <small class="error-message"></small>
+              </div>
+
+              <div class="form-field form-field-full">
+                <label for="mensagem">Mensagem</label>
+                <textarea
+                  id="mensagem"
+                  name="mensagem"
+                  rows="4"
+                  placeholder="Descreva seu contexto e objetivo com qualidade de software."
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Enviar pelo WhatsApp</button>
+              <p class="form-note">
+                Ao enviar, sera aberta uma conversa com a mensagem preenchida automaticamente.
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="faq">
+      <div class="container center-block">
+        <span class="badge">Perguntas frequentes</span>
+        <h2 class="section-title faq-title">FAQ do portfolio do Lucas</h2>
+        <p class="section-subtitle">
+          Respostas rapidas sobre escopo dos projetos e forma de trabalho.
+        </p>
+
+        <div class="faq-list top-gap text-left">
+          <article class="faq-item">
+            <h3>Os projetos listados estao publicados?</h3>
+            <p>
+              Sim. Os principais repositorios estao publicos no GitHub e organizados por camada de qualidade.
+            </p>
+          </article>
+
+          <article class="faq-item">
+            <h3>Qual e o projeto mais completo?</h3>
+            <p>
+              O repositorio <strong>ebac-tcc-qe</strong> concentra estrategia, automacao multi-camada e evidencias de execucao.
+            </p>
+          </article>
+
+          <article class="faq-item">
+            <h3>Existe cobertura alem de automacao funcional?</h3>
+            <p>
+              Sim. O portfolio inclui performance com k6 e fluxo de CI/CD para qualidade continua.
+            </p>
+          </article>
+
+          <article class="faq-item">
+            <h3>Posso usar este portfolio como referencia?</h3>
+            <p>
+              Sim. A estrutura foi pensada para ser clara, adaptavel e orientada a demonstrar maturidade em QA.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container">
+        <div class="cta-card">
+          <span class="badge">Proximo passo</span>
+          <h2 class="section-title cta-title">
+            Explore os projetos e acompanhe a evolucao do Lucas em Quality Engineering
+          </h2>
+          <p class="cta-text">
+            Repositorios atualizados com foco em qualidade aplicada, cobertura de risco e engenharia de automacao.
+          </p>
+          <div class="hero-actions center-actions">
+            <a
+              class="btn btn-primary"
+              href="https://github.com/Lucasviggiano"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Abrir GitHub do Lucas
+            </a>
+            <a
+              class="btn btn-secondary"
+              href="https://github.com/Lucasviggiano/ebac-tcc-qe"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver TCC EBAC
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p><strong>Lucas Viggiano</strong> - Portfolio de Engenharia de Qualidade de Software</p>
+      <p>
+        Automacao Web, API, Mobile, Performance e CI/CD com foco em qualidade continua.
+      </p>
+      <p>&copy; <span data-current-year></span> Lucas Viggiano. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
