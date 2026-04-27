@@ -50,46 +50,34 @@ https://github.com/Lucasviggiano/ebac-tcc-qe
 ## 🤖 Automação de Testes
 
 ### 🌐 UI (Web)
-
+https://github.com/Lucasviggiano/automacao-web-cypress
 * Cypress
 * Playwright
 * Page Objects
 * App Actions
 
 ### 🔌 API
-
+https://github.com/Lucasviggiano/automacao-API
 * Supertest
 * Postman
 * GraphQL
 * Validação de contrato (AJV)
 
 ### 📱 Mobile
-
+https://github.com/Lucasviggiano/automacao-mobile
 * Appium
 * WebdriverIO
 
 ### ⚡ Performance
-
+https://github.com/Lucasviggiano/performance-k6
 * k6
 
 ### 🔄 CI/CD
-
+https://github.com/Lucasviggiano/ci-cd-github-actions
 * GitHub Actions
 
 ---
 
-## 🧱 Estrutura do Portfólio
-
-```bash
-Quality-Assurance-Engineer-Portifolio/
-│
-├── repo-01-automacao-ui/
-├── repo-02-automacao-api/
-├── repo-03-automacao-mobile/
-├── repo-04-performance/
-├── planning/
-└── README.md
-```
 
 Cada repositório contém:
 
