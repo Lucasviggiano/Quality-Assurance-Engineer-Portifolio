@@ -4,7 +4,7 @@
 
 Sou Engenheiro de Qualidade de Software com foco em **automação de testes, estratégia de qualidade e validação de sistemas críticos** (Web, API, Mobile e Performance).
 
-Minha trajetória começou na **Gestão da Qualidade (ISO 9001)** na indústria, evoluindo para tecnologia, onde aplico pensamento analítico, automação e inteligência artificial para garantir **confiabilidade, escalabilidade e excelência em produtos digitais**.
+Minha trajetória começou na **Gestão da Qualidade (ISO 9001)** na indústria em 2015, evoluindo para tecnologia, onde aplico pensamento analítico, automação e inteligência artificial para garantir **confiabilidade, escalabilidade e excelência em produtos digitais**.
 
 ---
 
