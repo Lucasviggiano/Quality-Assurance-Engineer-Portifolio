@@ -141,22 +141,11 @@ Além da Engenharia de Qualidade, aplico Inteligência Artificial para:
 
 ## 🚀 Objetivo Profissional
 
-Busco oportunidades como:
-
 * QA Engineer
 * Software Quality Engineer
 * QA Automation Engineer
 * Analista de Qualidade
 
 Com foco em ambientes que valorizem qualidade, automação e melhoria contínua.
-
----
-
-## 📈 Próximos Passos
-
-* Expandir cobertura de testes mobile
-* Implementar testes de contrato avançados
-* Evoluir pipeline CI/CD
-* Criar dashboards de qualidade
 
 ---
